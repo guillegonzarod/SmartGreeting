@@ -60,6 +60,13 @@
                             <constraint firstItem="36s-mS-Q7W" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sMt-Uq-RAM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="buttonGreeting" destination="dsy-yY-KW1" id="fr3-YT-b6S"/>
+                        <outlet property="editTextGreeting" destination="pXh-Zj-uCz" id="AF6-Ya-AVx"/>
+                        <outlet property="switchCaps" destination="aCQ-ZJ-8f1" id="y9O-Qm-oqP"/>
+                        <outlet property="textViewCaps" destination="5qq-G4-1fP" id="IK2-mF-7Yu"/>
+                        <outlet property="textViewGreeting" destination="36s-mS-Q7W" id="XMJ-ZH-M8t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
